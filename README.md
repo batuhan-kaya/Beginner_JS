@@ -12,6 +12,12 @@ Simple javascript practices
 
 <img src="https://i.ibb.co/DRRYRNy/screenshotclock.png" width="600" height="auto" />
 
+---
+
+### Basic math practice
+
+<img src="https://i.ibb.co/YZzPC4Z/screenshot.png" width="600" height="auto" />
+
 
 
 
