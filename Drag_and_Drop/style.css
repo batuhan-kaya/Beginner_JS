@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: radial-gradient(circle at center center, rgb(136, 127, 112), rgb(8, 8, 8));
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: repeat(3, 150px);
+  grid-template-columns: repeat(3, 150px);
+  gap: 0px;
+}
+
+.empty {
+  width: 100%;
+  height: 150px;
+  border: solid 2px #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty:nth-child(odd) {
+  background-color: rgb(117, 80, 25);
+}
+
+.empty:nth-child(even) {
+  background-color: rgb(230, 230, 230);
+}
+
+.fill {
+  background-size: 100% 100%;
+  width: 144px;
+  height: 144px;
+  background-image: url("./king.png");
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.hold {
+  border: solid 2px #eee;
+}
+
+.hover {
+  background-color: rgb(90, 122, 42) !important;
+  border: 6px solid rgb(157, 206, 83);
+}
