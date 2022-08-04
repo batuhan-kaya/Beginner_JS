@@ -19,6 +19,12 @@ Simple javascript practices
 <img src="https://i.ibb.co/YZzPC4Z/screenshot.png" width="600" height="auto" />
 
 
+---
+
+### Dran N Drop practice
+
+<img src="https://i.ibb.co/ZhPX74n/chess.png" width="600" height="auto" />
+
 
 
 
